@@ -2,6 +2,8 @@ package alexsysoy.bubblesort;
 
 import alexsysoy.Sort;
 
+import static alexsysoy.utils.SortUtils.calculate;
+
 /**
  * Wost-case performance O(n2)
  * Best-case performance O(n)
@@ -20,12 +22,5 @@ public class BubbleSortCalculate {
         Integer[] cloneB = massive.clone();
         calculate(bubbleSortB, cloneB);
 
-    }
-
-    private static void calculate(Sort sort, Integer[] massive) {
-        sort.printArray(massive, null);
-        long time = System.currentTimeMillis();
-        sort.sort(massive);
-        sort.printArray(massive, System.currentTimeMillis() - time);
     }
 }
