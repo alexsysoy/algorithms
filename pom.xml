@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>sort</module>
+        <module>easy</module>
+        <module>medium</module>
     </modules>
 
     <properties>
