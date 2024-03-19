@@ -8,5 +8,6 @@ algorithms in java
 ### easy
 ### medium
 1. Add two numbers [leetcode](https://leetcode.com/problems/add-two-numbers)
+2. Reverse integer [leetcode](https://leetcode.com/problems/reverse-integer/)
 
 ### hard

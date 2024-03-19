@@ -1,8 +1,8 @@
 package alexsysoy.addtwonumbers;
 
 /**
- * Runtime 1ms
- * Memory 43.75 mb
+ * Runtime 1ms 100%
+ * Memory 43.75 mb 98.95%
  */
 class SolutionA implements Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
