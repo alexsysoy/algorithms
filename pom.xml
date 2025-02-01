@@ -12,6 +12,8 @@
         <module>sort</module>
         <module>easy</module>
         <module>medium</module>
+        <module>massivestrings</module>
+        <module>utils</module>
     </modules>
 
     <properties>
