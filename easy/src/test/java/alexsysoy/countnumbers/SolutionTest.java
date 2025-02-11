@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static alexsysoy.Massive.getMassive;
+import static alexsysoy.Massive.getLongMassive;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
@@ -21,7 +21,7 @@ class SolutionTest {
             "1,2,3,-1,-7,0,-7;1:1,2:1,3:1,-1:1,-7:2,0:1"
     }, delimiter = ';')
     void testSolution(String s, String result) {
-        long[] massive = getMassive(s);
+        long[] massive = getLongMassive(s);
         Map<Long, Long> expected = getMap(result);
 
         Solution solution = new SolutionImpl();
